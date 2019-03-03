@@ -37,6 +37,7 @@ It's the start point of the flow.
 #### *How to change the entrance?*
 
 mouse right key in any Node,and click 'Set Entrance'
+
 ![avator](pic/entrance.png)
 
 <br/>
@@ -51,6 +52,7 @@ mouse right key in blank
 ####  *Definite your operation in the Node*
 
 you must select a option,if not , there will is something wrong in runtime period
+
 ![avator](pic/nodeaction.png)
 
 <br/>
