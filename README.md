@@ -2,7 +2,7 @@
 Record assetstore's tool development document
 
 
-## Script Node Flow
+## Code Mind
 
 <strong>A simple logical flow design tool</strong>
 
@@ -11,7 +11,7 @@ Record assetstore's tool development document
 
 <strong>The tool will make things simple,you just take attention into the module logical functions,and it will link every module according your design.</strong>
 
-<p>There is a <a href="https://github.com/abcwangxiaoqi/AssetStorePulisher/blob/master/ScriptNodeFlow/README.md">Document</a> that help you a lot, that contain many detail about per step about how to build first your flow.</p>
+<p>There is a <a href="https://github.com/abcwangxiaoqi/AssetStorePulisher/blob/master/ScriptNodeFlow/README.md">Document</a> that help you a lot, that contain many detail about per step about how to build first your canvas.</p>
 
 <br/>
 
@@ -25,4 +25,4 @@ Record assetstore's tool development document
 
 <strong> <a href="mailto:frank.wangqi@foxmail.com">Contact me</a> if you have some questions :-)</strong>
 
-**[Open Document](ScriptNodeFlow/README.md)**
+**[Open Document](CodeMind/README.md)**
