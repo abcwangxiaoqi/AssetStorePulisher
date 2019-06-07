@@ -4,7 +4,8 @@ Record assetstore's tool development document
 
 ## Code Mind
 
-<strong>A simple logical flow design tool</strong>
+<strong>A simple logical flow design tool
+A simple AI Script tool</strong>
 
 <p>Normally it's diffcult to link every logic module in the game devlopement prograss,cause every single developer has different code style,
     so that we must definate so many interfaces,that will make thing complex.</p>
@@ -18,7 +19,7 @@ Record assetstore's tool development document
 <strong>PS: If you were a developer, will take it soon :-)</strong>
 
 <strong>Feature: </strong>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Editor Tool</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;AI Script Tool</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Runtime View</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Simple and Friendly</p>
 

@@ -1,9 +1,4 @@
-### Tag
-Behaviour Tree
-AI
-Visual Script
-
-### Creat a CodeMind Canvas
+### Create a CodeMind Canvas
 mouse right key and click a fold **Code Mind->Create.**
 
 ![avator](pic/create.png)
@@ -20,6 +15,7 @@ select the asset by mouse right key and click **Code Mind->Edit.**
 **OR**
 
 click the button named **'OpenGraph'** in Inspector
+
 ![avator](pic/edit2.png)
 
 <br/>
@@ -47,6 +43,7 @@ ShareData will cross throught the wholly period. You have to binding a specific 
 ***How to binding a script***
 + step1
 Copy the canvas infomation by copy button in Info.
+
 ![avator](pic/sharedataCopy.png)
 + step2
 Paste the infomation in your script header space.
@@ -88,7 +85,7 @@ public class NodeTest : Node
 {
     public NodeTest(SharedData data) : base(data) { }
 
-    public override void execute()
+    public override void Play()
     {
         /*
          * your code
@@ -96,6 +93,24 @@ public class NodeTest : Node
 
         //call finish method when current node finish you're sure
         finish(true);
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        /*
+         * pre frame action
+        */
+    }
+
+    public override void OnDestroy()
+    {
+        base.OnDestroy();
+
+        /*
+         * on destroy action
+        */
     }
 }
 ```
@@ -179,14 +194,19 @@ After you instantiate a CodeMind item, you can click a 'Graph' button in Inspect
 
 ### Work Flow
 
-+ step1
-Designer finish the canvas by product’s logic mind
-+ step2
++ **step1**
+Designer finish the canvas by produce’s logic mind
++ **step2**
 Developer binding every node's script
-+ step3
++ **step3**
 Run and check
 
 **Note:** You can creat a circle flow, but I don't advocate that, cause it never stop.
+
+<br/>
+
+### Tag
+***Behaviour Tree*** 、***AI*** 、 ***Visual Script***
 
 <br/>
 
